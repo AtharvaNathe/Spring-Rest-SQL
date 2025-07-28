@@ -1,71 +1,71 @@
-# Spring-Rest-SQL
-🏦 Spring Boot RESTful Bank Management API
-This project is a Spring Boot REST API for basic bank account operations. It supports CRUD operations and common banking functionalities like deposit and fund transfer. Built with a layered architecture using Spring MVC and Spring Data JPA, this application demonstrates how to build scalable, maintainable RESTful services in Java.
+# 🏦 Spring Boot RESTful Bank Management API
 
-🔧 Features
-✅ Get all bank accounts
+This is a simple and extensible **Spring Boot REST API** that simulates basic bank account operations such as creating accounts, viewing account details, depositing funds, and transferring money. Built using **Spring Boot**, **Spring Data JPA**, and **MySQL**, it demonstrates clean coding practices with a layered architecture.
 
-🔍 Search account by account number
+---
 
-➕ Add a new account
+## 🔧 Features
 
-🗑️ Delete an existing account
+- ✅ Get all bank accounts  
+- 🔍 Search for an account by account number  
+- ➕ Add a new bank account  
+- 🗑️ Delete an account  
+- 💰 Deposit money into an account  
+- 🔄 Transfer funds between accounts  
+- 🔗 RESTful endpoint structure  
+- 📦 Data persistence using Spring Data JPA  
 
-💰 Deposit money into an account
+---
 
-🔄 Transfer funds between two accounts
+## 📂 Tech Stack
 
-🔗 REST endpoints using @RestController and Spring MVC
+- **Java 17+**  
+- **Spring Boot**  
+- **Spring Web**  
+- **Spring Data JPA**  
+- **MySQL** (or compatible RDBMS)  
+- **Maven**
 
-📦 Data persistence using Spring Data JPA with MySQL (or any RDBMS)
+---
 
-📂 Tech Stack
-Java 17+
-
-Spring Boot
-
-Spring Web
-
-Spring Data JPA
-
-MySQL (or compatible RDBMS)
-
-RESTful APIs
-
-Maven
-
-📁 Project Structure
-scss
-Copy
-Edit
+## 📁 Project Structure
 com.predator.Rest.SQL
-├── controllers (BankController.java)
-├── services (AccountServices.java)
-├── repositories (AccountRepo.java)
-└── entities (Account.java)
-📬 Sample Endpoints
-GET /bank/test – Test API
+├── controllers
+│ └── BankController.java
+├── services
+│ └── AccountServices.java
+├── repositories
+│ └── AccountRepo.java
+├── entities
+│ └── Account.java
+└── application.properties
 
-GET /bank/allaccounts – List all accounts
+---
 
-GET /bank/search/number/{accno} – Get account by number
+## 📬 API Endpoints
 
-POST /bank/add – Add new account
+| Method | Endpoint | Description |
+|--------|----------|-------------|
+| GET    | `/bank/test` | Test API |
+| GET    | `/bank/allaccounts` | Get all accounts |
+| GET    | `/bank/search/number/{accno}` | Get account by number |
+| POST   | `/bank/add` | Add a new account |
+| DELETE | `/bank/delete` | Delete account by number |
+| PUT    | `/bank/deposit` | Deposit to account |
+| PUT    | `/bank/transfer` | Transfer between accounts |
 
-DELETE /bank/delete – Delete account
+---
 
-PUT /bank/deposit – Deposit
+## ⚙️ How to Run
 
-PUT /bank/transfer – Transfer
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/yourusername/bank-api.git
+   cd bank-api
 
-🚀 How to Run
-Clone the repository
 
-Configure your database in application.properties
+## 👨‍💻 Developed By
 
-Run the application using your IDE or mvn spring-boot:run
+- **Atharva Anil Nathe**  
+- **Java Developer | Backend Engineer**  
 
-Access endpoints via Postman or any REST client
-
-👨‍💻 Developed By
-Atharva Anil Nathe
