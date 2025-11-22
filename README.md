@@ -4,7 +4,7 @@ This is a simple and extensible **Spring Boot REST API** that simulates basic ba
 
 ---
 
-## 🔧 Features
+## 🔧 Features 
 
 - ✅ Get all bank accounts  
 - 🔍 Search for an account by account number  
