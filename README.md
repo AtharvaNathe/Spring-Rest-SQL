@@ -23,7 +23,7 @@ This is a simple and extensible **Spring Boot REST API** that simulates basic ba
 - **Spring Boot**  
 - **Spring Web**  
 - **Spring Data JPA**  
-- **MySQL** (or compatible RDBMS)  
+- **MySQL** (or compatible RDBMS)     
 - **Maven**
 
 ---
