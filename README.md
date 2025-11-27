@@ -21,7 +21,7 @@ This is a simple and extensible **Spring Boot REST API** that simulates basic ba
 
 - **Java 17+**  
 - **Spring Boot**  
-- **Spring Web**  
+- **Spring Web**    
 - **Spring Data JPA**  
 - **MySQL** (or compatible RDBMS)     
 - **Maven**
